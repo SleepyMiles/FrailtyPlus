@@ -1,3 +1,21 @@
+## 1.2.0
+
+### New
+- **No healing while bleeding** (with FrailtyMedical, on by default): while you have Bleeding, Laceration or Fatal Bleeding, only a Bandage, the First Aid Kit or Epinephrine can heal you. TZP, pills and other healing do nothing. Turning it off also turns off Laceration and Fatal Bleeding.
+- New debuffs: **Infected**, **Blooming** (Cadaver infection) and **Paranoid**, with a % under the icon.
+- **Paralysis** now jolts and shakes your view (setting `Paralysis shake`).
+- UsualScrap is now a compatibility option (`UsualScrap compatibility`, off by default).
+
+### Balance changes
+- **Paralyze rework:** bee damage adds up and you roll once after you get away (level 1 / 2 / 3 by damage). No lock-ups while still stung. A teammate's **Zap Gun** gives Paralyze too.
+
+### Icon changes
+<img src="https://raw.githubusercontent.com/SleepyMiles/FrailtyPlus/main/images/changes_1_2_0_icons.png" width="360">
+
+- New mod icon: the glitch look with **PLUS** under Frailty.
+- Redrawn icons: Laceration, Fatal Bleeding, Paralyze I-III, Paralysis.
+- New icons: Infected, Blooming, Paranoid.
+
 ## 1.1.0
 - Laceration and Fatal Bleeding now come with **FrailtyMedical** (its Bandage and First Aid Kit treat them). UsualScrap is no longer needed; its Bandages / Medical Kit still work if you have it.
 - README: every injury icon with what it does, and new future plans.
