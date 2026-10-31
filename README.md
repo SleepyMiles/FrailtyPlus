@@ -69,6 +69,7 @@ These read the game's own state, so they show what is really happening to you.
 - **Infected**: Cadaver spores. Shows once the game's infection reaches `60%`, with the % under the icon. The ship's shower or weed killer clears it (the % pulses while it goes down).
 - **Blooming**: the burst stage. The % counts up, and at `100%` a Cadaver Bloom bursts out of you. The game can't cure it any more.
 - **Paranoid**: your paranoia (the game's insanity) is at `75%` or more, where the creepy sounds start. Stay near your crew to bring it down.
+- **Infection warnings in multiplayer** (on by default, `Infection warnings in multiplayer`): the game only tells you about the infection when you play alone. With this on you get the same in multiplayer: the air filter quality % while you stand in the plants, the high fever warnings with the fever's effect on your screen, the vines in your head sound, and the last warning before you burst.
 
 </details>
 
@@ -123,7 +124,7 @@ These read the game's own state, so they show what is really happening to you.
 
 | Section | What |
 |---|---|
-| 1. Effects | Keep HUD clear, Fatal Bleeding red flash, Paralysis shake (your own settings) |
+| 1. Effects | Keep HUD clear, Fatal Bleeding red flash, Paralysis shake, infection warnings in multiplayer (your own settings) |
 | 2. Injuries | turn each injury on / off (Infected, Blooming, Paranoid too) |
 | 3. Chances | arm, bleeding, blindness, concussion, Coil-Head |
 | 4. Times | how long each one lasts |

@@ -1,6 +1,7 @@
 ## 1.2.1
+- **Infection warnings in multiplayer** (new setting in `1. Effects`, on by default): the Cadaver infection's single player warnings show in multiplayer too: the air filter quality % (and "Filter inoperative!") while you stand in the plants, the high fever warnings with the fever's effect on your screen, the vines in your head sound from 60%, and the last "FOREIGN BODIES DETECTED" warning before you burst. The infection itself works as the game has it.
 - Fixed: after leaving a lobby and hosting or joining another one, the others no longer saw your healed health from FrailtyMedical / Drinkable until you restarted the game.
-- Fixed: on some setups (where BepInEx' own object is removed when the game loads a scene) FrailtyMedical's healing rules and death causes weren't found.
+- Fixed: on some setups (where BepInEx' own object is removed when the game loads a scene) FrailtyMedical's healing rules weren't found.
 
 ## 1.2.0
 
