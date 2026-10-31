@@ -1,3 +1,6 @@
+## 1.2.1
+- Fixed: after leaving a lobby and hosting or joining another one, the others no longer saw your healed health from FrailtyMedical / Drinkable until you restarted the game.
+
 ## 1.2.0
 
 ### New
