@@ -69,7 +69,7 @@ These read the game's own state, so they show what is really happening to you.
 - **Infected**: Cadaver spores. Shows once the game's infection reaches `60%`, with the % under the icon. The ship's shower or weed killer clears it (the % pulses while it goes down).
 - **Blooming**: the burst stage. The % counts up, and at `100%` a Cadaver Bloom bursts out of you. The game can't cure it any more.
 - **Paranoid**: your paranoia (the game's insanity) is at `75%` or more, where the creepy sounds start. Stay near your crew to bring it down.
-- **Infection warnings in multiplayer** (on by default, `Infection warnings in multiplayer`): the game only tells you about the infection when you play alone. With this on you get the same in multiplayer: the air filter quality % while you stand in the plants, the high fever warnings with the fever's effect on your screen, the vines in your head sound, and the last warning before you burst.
+- **Infection warnings in multiplayer** (on by default, `Infection warnings in multiplayer` in the `Cadaver Infection` section): the game only tells you about the infection when you play alone. With this on you get the same in multiplayer: the air filter quality % while you stand in the plants, the high fever warnings with the fever's effect on your screen, the vines in your head sound, and the last warning before you burst.
 
 </details>
 
@@ -120,12 +120,12 @@ These read the game's own state, so they show what is really happening to you.
 
 ## Configuration
 
-`BepInEx/config/Chaos.Frailty.cfg`, or in-game with **LethalConfig**. Everything except `1. Effects` is **synced from the host**.
+`BepInEx/config/Chaos.Frailty.cfg`, or in-game with **LethalConfig**. Everything except `1. Effects` (and the infection warnings) is **synced from the host**.
 
 | Section | What |
 |---|---|
-| 1. Effects | Keep HUD clear, Fatal Bleeding red flash, Paralysis shake, infection warnings in multiplayer (your own settings) |
-| 2. Injuries | turn each injury on / off (Infected, Blooming, Paranoid too) |
+| 1. Effects | Keep HUD clear, Fatal Bleeding red flash, Paralysis shake (your own settings) |
+| 2. Injuries | turn each injury on / off (Paranoid too) |
 | 3. Chances | arm, bleeding, blindness, concussion, Coil-Head |
 | 4. Times | how long each one lasts |
 | 5. Fall damage | the 4 tiers, Fracture to Broken conversion, max leg injury time |
@@ -133,6 +133,7 @@ These read the game's own state, so they show what is really happening to you.
 | 7. Laceration and Fatal Bleeding | on / off (also no healing while bleeding), UsualScrap compatibility, times, damage, Forgiving mode |
 | 8. Paralyze | escape delay, the 3 levels, Zap Gun, times, camera speed |
 | 9. Other | steam roll interval, AdvancedCompany perks |
+| Cadaver Infection | Infected and Blooming on / off, infection warnings in multiplayer (your own setting) |
 
 ---
 
