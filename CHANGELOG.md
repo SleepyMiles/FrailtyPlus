@@ -1,6 +1,7 @@
 ## 1.2.1
 - **Infection warnings in multiplayer** (new setting, on by default): the Cadaver infection's single player warnings show in multiplayer too: the air filter quality % (and "Filter inoperative!") while you stand in the plants, the high fever warnings with the fever's effect on your screen, the vines in your head sound from 60%, and the last "FOREIGN BODIES DETECTED" warning before you burst. The infection itself works as the game has it.
-- New settings section **Cadaver Infection** with everything about the infection: Infected, Blooming (moved from `2. Injuries`, your values carry over) and Infection warnings in multiplayer.
+- **Cleaner settings:** no more numbers and fewer sections: `General`, `Fall damage`, `Bleeding` (with Laceration and Fatal Bleeding), `Hits` (chances and times together), `Paralyze`, `Cadaver Infection` and `Display`. Your values carry over.
+- New settings section **Cadaver Infection** with everything about the infection: Infected, Blooming and Infection warnings in multiplayer.
 - Fixed: after leaving a lobby and hosting or joining another one, the others no longer saw your healed health from FrailtyMedical / Drinkable until you restarted the game.
 - Fixed: on some setups (where BepInEx' own object is removed when the game loads a scene) FrailtyMedical's healing rules weren't found.
 - The extra stamina drain from leg injuries shows in EladsHUD+'s detailed stamina rate too (it already did with AdvancedCompany).
@@ -17,7 +18,7 @@
 - **Paralyze rework:** bee damage adds up and you roll once after you get away (level 1 / 2 / 3 by damage). No lock-ups while still stung. A teammate's **Zap Gun** gives Paralyze too.
 
 ### Icon changes
-<img src="https://raw.githubusercontent.com/SleepyMiles/FrailtyPlus/main/images/changes_1_2_0_icons.png" width="360">
+<img src="https://raw.githubusercontent.com/SleepyMiles/FrailtyPlus/main/images/changes_1_2_0_icons.png" width="720">
 
 - New mod icon: the glitch look with **PLUS** under Frailty.
 - Redrawn icons: Laceration, Fatal Bleeding, Paralyze I-III, Paralysis.

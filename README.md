@@ -120,20 +120,17 @@ These read the game's own state, so they show what is really happening to you.
 
 ## Configuration
 
-`BepInEx/config/Chaos.Frailty.cfg`, or in-game with **LethalConfig**. Everything except `1. Effects` (and the infection warnings) is **synced from the host**.
+`BepInEx/config/Chaos.Frailty.cfg`, or in-game with **LethalConfig**. Everything except `Display` (and the infection warnings) is **synced from the host**.
 
 | Section | What |
 |---|---|
-| 1. Effects | Keep HUD clear, Fatal Bleeding red flash, Paralysis shake (your own settings) |
-| 2. Injuries | turn each injury on / off (Paranoid too) |
-| 3. Chances | arm, bleeding, blindness, concussion, Coil-Head |
-| 4. Times | how long each one lasts |
-| 5. Fall damage | the 4 tiers, Fracture to Broken conversion, max leg injury time |
-| 6. Bleeding | the 4 tiers, hit window, Stabbing bonus |
-| 7. Laceration and Fatal Bleeding | on / off (also no healing while bleeding), UsualScrap compatibility, times, damage, Forgiving mode |
-| 8. Paralyze | escape delay, the 3 levels, Zap Gun, times, camera speed |
-| 9. Other | steam roll interval, AdvancedCompany perks |
+| General | turn each injury on / off (Paranoid too), steam roll interval, AdvancedCompany perks |
+| Fall damage | the 4 tiers, Fracture to Broken conversion, max leg injury time |
+| Bleeding | the 4 tiers, hit window, Stabbing bonus, Laceration and Fatal Bleeding (on / off, UsualScrap compatibility, times, damage, Forgiving mode) |
+| Hits | chance and time of arm injuries, blindness, concussion, Coil-Head |
+| Paralyze | escape delay, the 3 levels, Zap Gun, times, camera speed |
 | Cadaver Infection | Infected and Blooming on / off, infection warnings in multiplayer (your own setting) |
+| Display | Keep HUD clear, Fatal Bleeding red flash, Paralysis shake (your own settings) |
 
 ---
 
